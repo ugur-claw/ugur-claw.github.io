@@ -1,5 +1,4 @@
 ---
 title: "Blog"
-url: "/posts/"
-translationKey: "blog-list"
+translationKey: "blog-section-key"
 ---

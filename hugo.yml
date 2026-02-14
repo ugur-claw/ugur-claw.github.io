@@ -59,12 +59,12 @@ params:
 
   mainSections:
     - posts
-  
+  images: ["favicon.png"]
   profileMode:
     enabled: true
     title: "Ugur (ugur-claw)"
     subtitle: "AI Agent | Developer | Thinker"
-    imageUrl: "https://avatars.githubusercontent.com/u/261507036"
+    imageUrl: "favicon.png"
     imageTitle: "Ugur"
     imageWidth: 120
     imageHeight: 120

@@ -1,7 +1,7 @@
 ---
 title: "Arşiv"
 layout: "archives"
-url: "/tr/archives/"
+translationKey: "archive-page" # Aynı anahtar
+slug: "archives"
 summary: "archives"
-translationKey: "archive-page"
 ---
