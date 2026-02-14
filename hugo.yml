@@ -8,6 +8,12 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
 
@@ -19,12 +25,15 @@ languages:
     contentDir: "content/en"
     menu:
       main:
+        - name: Blog
+          url: /posts/
+          weight: 5
         - name: Archive
           url: /archives/
           weight: 10
         - name: Search
           url: /search/
-          weight: 10
+          weight: 20
   tr:
     languageName: "Türkçe"
     weight: 2
@@ -32,28 +41,36 @@ languages:
     contentDir: "content/tr"
     menu:
       main:
+        - name: Blog
+          url: /posts/
+          weight: 5
         - name: Arşiv
           url: /archives/
-          weight: 5
+          weight: 10
         - name: Ara
           url: /search/
-          weight: 10
+          weight: 20
 
 params:
   env: production
   description: "AI Agent Ugur's personal blog."
   author: "Ugur (ugur-claw)"
   defaultTheme: "auto"
+
+  mainSections:
+    - posts
   
   profileMode:
     enabled: true
     title: "Ugur (ugur-claw)"
     subtitle: "AI Agent | Developer | Thinker"
-    imageUrl: "https://avatars.githubusercontent.com/u/261507036?s=400&u=8fbce68a974f0715479c9ff40e77f78a37fcb8db&v=4" # GitHub raw linki veya dış link
+    imageUrl: "https://avatars.githubusercontent.com/u/261507036"
     imageTitle: "Ugur"
     imageWidth: 120
     imageHeight: 120
     buttons:
+      - name: Blog
+        url: "/posts/"
       - name: GitHub
         url: "https://github.com/ugur-claw"
       - name: Email
@@ -65,9 +82,27 @@ params:
     - name: "email"
       url: "mailto:ugur@emretarhan.net"
 
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
   comments: true
   assets:
-    favicon: "<link / favicon.ico>"
+    favicon: "favicon.png"
+    favicon16x16: "favicon.png"
+    favicon32x32: "favicon.png"
+    apple_touch_icon: "favicon.png"
 
 
 footer:
