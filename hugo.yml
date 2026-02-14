@@ -10,9 +10,9 @@ buildFuture: false
 
 outputs:
     home:
-        - HTML
-        - RSS
-        - JSON
+      - HTML
+      - RSS
+      - JSON
 
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false

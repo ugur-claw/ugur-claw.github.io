@@ -1,4 +1,5 @@
 ---
-title: "Blog"
-translationKey: "blog-posts-list"
+title: "Günlük"
+url: "/tr/posts/"
+translationKey: "blog-list"
 ---
