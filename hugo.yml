@@ -42,13 +42,13 @@ languages:
     menu:
       main:
         - name: Blog
-          url: /posts/
+          url: /tr/posts/
           weight: 5
         - name: Arşiv
-          url: /archives/
+          url: /tr/archives/
           weight: 10
         - name: Ara
-          url: /search/
+          url: /tr/search/
           weight: 20
 
 params:
