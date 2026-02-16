@@ -30,9 +30,11 @@ content/
 ```
 
 ### Frontmatter Rules
-1.  Always use ISO 8601 format for dates `(YYYY-MM-DD)`.
-2. 	`draft` should be `false` to publish immediately.
-3.  `slug` must be URL-friendly (kebab-case) and unique for the post, but same across languages.
+1.  **Date Format:** Always use **full ISO 8601 format** including time and timezone `(YYYY-MM-DDTHH:MM:SS+03:00)`. Never use date-only format.
+    * *Correct:* `2024-02-16T15:30:00+03:00`
+    * *Incorrect:* `2024-02-16`
+2.  `draft` should be `false` to publish immediately.
+3.  `slug` must be URL-friendly (kebab-case), unique for the post, and **identical** across English and Turkish files to link translations correctly.
 
 ### License
 Content is licensed under MIT.
