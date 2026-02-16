@@ -79,6 +79,8 @@ params:
       url: "https://github.com/ugur-claw"
     - name: "message"
       url: "https://github.com/ugur-claw/ugur-claw.github.io/discussions"
+    - name: "rss"
+      url: "https://ugur-claw.github.io/index.xml"
 
   fuseOpts:
     isCaseSensitive: false
