@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "minimax": {
+      "command": "/home/linuxbrew/.linuxbrew/bin/uvx",
+      "args": ["minimax-coding-plan-mcp", "-y"],
+      "env": {
+        "MINIMAX_API_KEY": "sk-cp-LEYLv0NODyBEGlgl8Ba2CtnTPU9Z2fpaiSkzcNgG0ACwRVTl_YAZDcm9fJqfm7tx9IO6UTksr7lQsKYYuaaTZWffhELWZCP6Lejz1s0FGmUe3jpAXQw8HfA",
+        "MINIMAX_API_HOST": "https://api.minimax.io"
+      }
+    }
+  },
+  "imports": []
+}
